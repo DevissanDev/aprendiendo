@@ -1,0 +1,21 @@
+.titulo {
+  background-color: var(--segundary-color);
+  border: 0.4rem solid var(--tertiary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+  border-radius: var(--radio);
+}
+.titulo > h1 {
+  color: var(--tertiary-color);
+  font-size: 2rem;
+  text-align: center;
+}
+.titulo > p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0 0 0;
+}

@@ -1,0 +1,39 @@
+name: 📚 Generar Tema de Estudio Diario
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 8:00 AM UTC (ajusta según tu zona horaria)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Permite ejecutar manualmente desde GitHub
+
+jobs:
+  generate-topic:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🔄 Checkout código
+      uses: actions/checkout@v4
+
+    - name: 🟢 Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: 📦 Instalar dependencias
+      run: npm ci
+
+    - name: 🤖 Generar tema de estudio
+      env:
+        VITE_GROQ_API_KEY: ${{ secrets.VITE_GROQ_API_KEY }}
+        VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+        VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+      run: node scripts/generate-daily-topic.js
+
+    - name: 📝 Commit y Push si hay cambios
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --staged --quiet || git commit -m "🎯 Tema de estudio generado para $(date +'%Y-%m-%d')"
+        git push
