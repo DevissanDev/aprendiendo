@@ -11,20 +11,35 @@
   font-family: "JetBrains Mono", monospace;
   font-size: 1.4rem;
 }
-.estudio > div {
+.estudio > div:not(.contema) {
   display: flex;
   flex-direction: column;
   justify-content: left;
   text-align: left;
 }
-.tema {
-  background-color: #f0f0f0;
-  padding: 0.2rem 2rem;
-  color: #ffffff;
-  width: fit-content;
-  border-radius: 5px;
-  background-color: var(--primary-color);
+.contema {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+.tema {
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+  width: fit-content;
+}
+.copy {
+  width: fit-content;
+  text-align: right;
+  color: var(--fourth-color);
+}
+.botones {
+  display: flex;
+  gap: 1rem;
 }
 .nombre {
   color: var(--segundary-color);
@@ -40,4 +55,30 @@
 }
 .explicacion > p {
   text-align: justify;
+}
+
+.botonDescarga {
+  background-color: var(--fourth-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radio);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-end;
+  margin-top: 1rem;
+}
+
+.botonDescarga:hover {
+  background-color: #00a844;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 201, 80, 0.3);
+}
+
+.botonDescarga:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 201, 80, 0.3);
 }

@@ -46,6 +46,33 @@ export function Inicio() {
         nombre_tema={data[0]?.nombre_tema}
         explicacion_tema={data[0]?.explicacion_tema}
       />
+      <img className={style.mario} src="./img/mario.gif" alt="Mario" />
+      <img
+        className={`${style.arbusto} ${style.arbusto1}`}
+        src="./img/arbusto.png"
+        alt=""
+      />
+      <img
+        className={`${style.arbusto} ${style.arbusto2}`}
+        src="./img/arbusto.png"
+        alt=""
+      />
+      <img
+        className={`${style.arbusto} ${style.arbusto3}`}
+        src="./img/arbusto.png"
+        alt=""
+      />
+      <img
+        className={`${style.nube} ${style.nube1}`}
+        src="./img/nube.png"
+        alt=""
+      />
+      <img
+        className={`${style.nube} ${style.nube2}`}
+        src="./img/nube.png"
+        alt=""
+      />
+      <img className={style.tubo} src="./img/tubo.png" alt="" />
     </div>
   );
 }

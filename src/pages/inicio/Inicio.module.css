@@ -6,6 +6,7 @@
   max-width: 40rem;
   box-sizing: border-box;
   height: 100%;
+  overflow: hidden;
 }
 
 .tarjetas {
@@ -16,6 +17,108 @@
   flex-wrap: wrap;
   margin: 1rem;
 }
+.mario {
+  width: 3rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  animation: caminarMario 40s linear infinite;
+  z-index: 1;
+}
+.arbusto {
+  width: 6rem;
+  position: absolute;
+  z-index: -1;
+}
+.arbusto1 {
+  bottom: 0rem;
+  right: 60%;
+}
+.arbusto2 {
+  bottom: 0rem;
+  right: 20%;
+}
+.arbusto3 {
+  bottom: 0rem;
+  right: 80%;
+}
+.nube {
+  width: 5rem;
+  position: absolute;
+  z-index: -5;
+}
+.nube1 {
+  right: 10%;
+  top: 25%;
+  animation: flotarNube1 120s ease-in-out infinite;
+}
+.nube2 {
+  right: 80%;
+  top: 33%;
+  animation: flotarNube2 110s ease-in-out infinite;
+}
+.tubo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 6rem;
+}
+
+/* Animación para que Mario camine de izquierda a derecha */
+@keyframes caminarMario {
+  0% {
+    left: -20%;
+    transform: scaleX(1);
+  }
+  25% {
+    left: calc(97% - 5rem);
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(110% - 5rem);
+    transform: scaleX(-1);
+  }
+
+  100% {
+    left: -20%;
+    transform: scaleX(-1);
+  }
+}
+
+/* Animaciones sutiles para las nubes */
+@keyframes flotarNube1 {
+  0%,
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(100px) translateY(-20px);
+  }
+  50% {
+    transform: translateX(-5px) translateY(-8px);
+  }
+  75% {
+    transform: translateX(8px) translateY(-3px);
+  }
+}
+
+@keyframes flotarNube2 {
+  0%,
+  100% {
+    transform: translateX(-30px) translateY(0);
+  }
+  30% {
+    transform: translateX(-80px) translateY(-6px);
+  }
+  60% {
+    transform: translateX(120px) translateY(-4px);
+  }
+  80% {
+    transform: translateX(-60px) translateY(-7px);
+  }
+}
+
 @media (max-width: 750px) {
   .inico {
     padding: 0.5rem 2rem;
