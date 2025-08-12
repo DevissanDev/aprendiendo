@@ -5,7 +5,8 @@
   --segundary-color: #fa2c36;
   --tertiary-color: #fddf21;
   --fourth-color: #00c950;
-  --radio: 5px;
+  --radio: 15px;
+  --borde: 4px;
 
   --line-color: rgba(255, 255, 255, 0.1);
   background: repeating-linear-gradient(
@@ -47,6 +48,7 @@ a:hover {
 }
 
 body {
+  padding: 0;
   margin: 0;
   display: flex;
   place-items: center;
@@ -88,5 +90,15 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media (max-width: 500px) {
+  :root {
+    font-size: 80%;
+  }
+}
+@media (max-width: 370px) {
+  :root {
+    font-size: 70%;
   }
 }

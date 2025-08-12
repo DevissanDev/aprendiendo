@@ -1,37 +1,36 @@
-import { useState } from "react";
-import { Titulo, Tarjeta } from "../../components";
-import { obtenerYGuardarTemaEstudio } from "../../services/temaEstudio";
+import { Titulo, Tarjeta, Tema } from "../../components";
 import style from "./inicio.module.css";
+import { useState, useEffect } from "react";
+import { getLastThreeRecords } from "../../services/Select.js";
 
 export function Inicio() {
-  const [tema, setTema] = useState("");
-  const [cargando, setCargando] = useState(false);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const lastThree = await getLastThreeRecords("temas_estudio");
+        setData(lastThree);
+        console.log("Últimos 3 registros:", lastThree);
+      } catch (error) {
+        console.error("Error al obtener datos:", error);
+      }
+    };
+    fetchData();
+  }, []);
 
   const diaComienzo = new Date("2025-08-11");
-  const fechaHoy = new Date().toISOString().split("T")[0]; // formato YYYY-MM-DD
-  // Calcular días transcurridos
+  const fechaHoy = new Date().toISOString().split("T")[0];
   const fechaActual = new Date(fechaHoy);
   const diferenciaTiempo = fechaActual.getTime() - diaComienzo.getTime();
   const diasTranscurridos = Math.floor(
     diferenciaTiempo / (1000 * 60 * 60 * 24)
   );
 
-  const manejarObtenerTema = async () => {
-    setCargando(true);
-    try {
-      const nuevoTema = await obtenerYGuardarTemaEstudio();
-      setTema(nuevoTema);
-    } catch (error) {
-      console.error("Error al obtener tema:", error);
-    } finally {
-      setCargando(false);
-    }
-  };
-
   return (
-    <div>
+    <div className={style.inico}>
       <Titulo
-        titulo="📚 Aprendiendo 📚"
+        titulo="Aprendiendo"
         copy="aprende algo nuevo de programación cada dia"
       />
       <div className={style.tarjetas}>
@@ -42,39 +41,11 @@ export function Inicio() {
           color="#00C950"
         />
       </div>
-      
-      <div style={{ textAlign: "center", margin: "2rem 0" }}>
-        <button 
-          onClick={manejarObtenerTema} 
-          disabled={cargando}
-          style={{
-            backgroundColor: "#4ECDC4",
-            color: "white",
-            border: "none",
-            padding: "1rem 2rem",
-            borderRadius: "8px",
-            fontSize: "1rem",
-            cursor: cargando ? "not-allowed" : "pointer",
-            opacity: cargando ? 0.6 : 1
-          }}
-        >
-          {cargando ? "Generando..." : "🎲 Obtener Tema de Estudio"}
-        </button>
-        
-        {tema && (
-          <div style={{
-            marginTop: "2rem",
-            padding: "1rem",
-            backgroundColor: "#f8f9fa",
-            borderRadius: "8px",
-            maxWidth: "600px",
-            margin: "2rem auto 0"
-          }}>
-            <h3>📚 Tema de hoy:</h3>
-            <p style={{ fontSize: "1.1rem", color: "#2c3e50" }}>{tema}</p>
-          </div>
-        )}
-      </div>
+      <Tema
+        tema={data[0]?.tema}
+        nombre_tema={data[0]?.nombre_tema}
+        explicacion_tema={data[0]?.explicacion_tema}
+      />
     </div>
   );
 }

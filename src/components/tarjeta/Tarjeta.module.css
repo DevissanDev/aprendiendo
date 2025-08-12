@@ -1,9 +1,9 @@
 .tarjeta {
   display: flex;
-  gap: 1rem;
   background-color: var(--color, #000);
   color: var(--text-color, #fff);
   width: fit-content;
+  box-sizing: border-box;
   padding: 0.5rem 1rem;
   border-radius: var(--radio);
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);

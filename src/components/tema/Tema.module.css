@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+.estudio {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 2rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: var(--radio);
+  border: var(--borde) solid var(--tertiary-color);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.4rem;
+}
+.estudio > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+.tema {
+  background-color: #f0f0f0;
+  padding: 0.2rem 2rem;
+  color: #ffffff;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+}
+.nombre {
+  color: var(--segundary-color);
+  border-bottom: 4px solid var(--segundary-color);
+}
+.explicacion {
+  background-color: #fef9c2;
+  border-radius: var(--radio);
+  padding: 1.5rem;
+  border: var(--borde) solid var(--tertiary-color);
+  font-size: 1rem;
+  color: rgb(19, 19, 19);
+}
+.explicacion > p {
+  text-align: justify;
+}
