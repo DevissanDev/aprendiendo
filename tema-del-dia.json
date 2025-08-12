@@ -1,5 +1,7 @@
 {
   "fecha": "2025-08-12",
-  "tema": "\"Análisis de algoritmos para la detección de patrones en datos\"",
-  "generadoEn": "2025-08-12T13:06:07.694Z"
+  "tecnologia": "javascript",
+  "nombre_tema": "Usos de la función `async/await` en JavaScript",
+  "explicacion_tema": "La función `async/await` es una forma de escribir código asincrónico de manera que sea más fácil de leer y mantener. Permite escribir código que se puede ejecutar de manera síncrona, pero que utiliza promesas en el fondo. Esto facilita la escritura de código que se comunica con APIs, bases de datos y otros sistemas que devuelven resultados asincrónicamente.",
+  "generadoEn": "2025-08-12T16:33:57.824Z"
 }
