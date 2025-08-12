@@ -40,7 +40,10 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff --staged --quiet || git commit -m "🎯 Tema de estudio generado para $(date +'%Y-%m-%d')"
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+        if ! git diff --staged --quiet; then
+          git commit -m "🎯 Tema de estudio generado para $(date +'%Y-%m-%d')"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 🔹 Token disponible en el paso
