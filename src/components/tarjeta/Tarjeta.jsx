@@ -1,4 +1,4 @@
-import style from "./tarjeta.module.css";
+import style from "./Tarjeta.module.css";
 
 export function Tarjeta({ nombre, variable, color, textColor }) {
   return (

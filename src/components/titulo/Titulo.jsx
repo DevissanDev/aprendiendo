@@ -1,4 +1,4 @@
-import style from "./titulo.module.css";
+import style from "./Titulo.module.css";
 
 export function Titulo({ titulo, copy }) {
   return (

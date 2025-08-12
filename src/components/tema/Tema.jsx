@@ -1,4 +1,4 @@
-import style from "./tema.module.css";
+import style from "./Tema.module.css";
 
 export function Tema({ tema, nombre_tema, explicacion_tema }) {
   return (

@@ -1,5 +1,5 @@
 import { Titulo, Tarjeta, Tema } from "../../components";
-import style from "./inicio.module.css";
+import style from "./Inicio.module.css";
 import { useState, useEffect } from "react";
 import { getLastThreeRecords } from "../../services/Select.js";
 
