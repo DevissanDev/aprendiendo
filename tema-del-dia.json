@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-12",
-  "tecnologia": "javascript",
-  "nombre_tema": "Usos de la función `async/await` en JavaScript",
-  "explicacion_tema": "La función `async/await` es una forma de escribir código asincrónico de manera que sea más fácil de leer y mantener. Permite escribir código que se puede ejecutar de manera síncrona, pero que utiliza promesas en el fondo. Esto facilita la escritura de código que se comunica con APIs, bases de datos y otros sistemas que devuelven resultados asincrónicamente.",
-  "generadoEn": "2025-08-12T16:33:57.824Z"
+  "fecha": "2025-08-13",
+  "tecnologia": "html",
+  "nombre_tema": "Shadow DOM en HTML",
+  "explicacion_tema": "El Shadow DOM es un árbol de nodos que se crea en un elemento HTML y no está directamente accesible desde el árbol de nodos principal. Se utiliza para crear portales de contenido que pueden ser utilizados para mejorar la organización y el rendimiento de las aplicaciones web. Los elementos contenidos en el Shadow DOM no pueden ser seleccionados con selectores de CSS ni pueden ser manipulados directamente con JavaScript, lo que proporciona una forma segura de aislar el contenido y mejorar la seguridad de la aplicación",
+  "generadoEn": "2025-08-13T08:28:31.826Z"
 }
