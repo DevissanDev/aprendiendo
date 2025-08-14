@@ -31,7 +31,7 @@ export function Inicio() {
     <div className={style.inico}>
       <Titulo
         titulo="Aprendiendo"
-        copy="aprende algo nuevo de programación cada dia"
+        copy="aprende algo nuevo de programación cada día"
       />
       <div className={style.tarjetas}>
         <Tarjeta nombre="Día" variable={fechaHoy} color="#00C950" />
