@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-13",
-  "tecnologia": "html",
-  "nombre_tema": "Shadow DOM en HTML",
-  "explicacion_tema": "El Shadow DOM es un árbol de nodos que se crea en un elemento HTML y no está directamente accesible desde el árbol de nodos principal. Se utiliza para crear portales de contenido que pueden ser utilizados para mejorar la organización y el rendimiento de las aplicaciones web. Los elementos contenidos en el Shadow DOM no pueden ser seleccionados con selectores de CSS ni pueden ser manipulados directamente con JavaScript, lo que proporciona una forma segura de aislar el contenido y mejorar la seguridad de la aplicación",
-  "generadoEn": "2025-08-13T08:28:31.826Z"
+  "fecha": "2025-08-14",
+  "tecnologia": "react",
+  "nombre_tema": "React Hook: useEffect",
+  "explicacion_tema": "El hook useEffect es una herramienta para administrar efectos secundarios en React, como hacer peticiones HTTP o establecer intervalos. Permite ejecutar código después de que React haya renderizado un componente y antes de que vuelva a renderizarlo. Ayuda a minimizar el número de re-rendereos innecesarios y mejorar el rendimiento de la aplicación.",
+  "generadoEn": "2025-08-14T08:29:04.622Z"
 }
