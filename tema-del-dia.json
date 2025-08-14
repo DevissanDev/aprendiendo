@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-12",
-  "tecnologia": "javascript",
-  "nombre_tema": "Usos de la función `async/await` en JavaScript",
-  "explicacion_tema": "La función `async/await` es una forma de escribir código asincrónico de manera que sea más fácil de leer y mantener. Permite escribir código que se puede ejecutar de manera síncrona, pero que utiliza promesas en el fondo. Esto facilita la escritura de código que se comunica con APIs, bases de datos y otros sistemas que devuelven resultados asincrónicamente.",
-  "generadoEn": "2025-08-12T16:33:57.824Z"
+  "fecha": "2025-08-14",
+  "tecnologia": "react",
+  "nombre_tema": "React Hook: useEffect",
+  "explicacion_tema": "El hook useEffect es una herramienta para administrar efectos secundarios en React, como hacer peticiones HTTP o establecer intervalos. Permite ejecutar código después de que React haya renderizado un componente y antes de que vuelva a renderizarlo. Ayuda a minimizar el número de re-rendereos innecesarios y mejorar el rendimiento de la aplicación.",
+  "generadoEn": "2025-08-14T08:29:04.622Z"
 }
