@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-14",
-  "tecnologia": "react",
-  "nombre_tema": "React Hook: useEffect",
-  "explicacion_tema": "El hook useEffect es una herramienta para administrar efectos secundarios en React, como hacer peticiones HTTP o establecer intervalos. Permite ejecutar código después de que React haya renderizado un componente y antes de que vuelva a renderizarlo. Ayuda a minimizar el número de re-rendereos innecesarios y mejorar el rendimiento de la aplicación.",
-  "generadoEn": "2025-08-14T08:29:04.622Z"
+  "fecha": "2025-08-15",
+  "tecnologia": "css",
+  "nombre_tema": "CSS Grid Layout",
+  "explicacion_tema": "El layout de grid en CSS es una forma de organizar y estructurar elementos en una página web utilizando un sistema de filas y columnas. Permite crear diseños complejos y flexibles, y es especialmente útil para crear interfaces de usuario y layout de contenido. Utiliza la propiedad grid-row y grid-column para definir las posiciones y tamaños de los elementos, y se puede personalizar con estilos y selectores para crear diseños únicos.",
+  "generadoEn": "2025-08-15T08:27:31.059Z"
 }
