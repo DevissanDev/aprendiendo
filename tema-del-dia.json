@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-15",
+  "fecha": "2025-08-16",
   "tecnologia": "css",
-  "nombre_tema": "CSS Grid Layout",
-  "explicacion_tema": "El layout de grid en CSS es una forma de organizar y estructurar elementos en una página web utilizando un sistema de filas y columnas. Permite crear diseños complejos y flexibles, y es especialmente útil para crear interfaces de usuario y layout de contenido. Utiliza la propiedad grid-row y grid-column para definir las posiciones y tamaños de los elementos, y se puede personalizar con estilos y selectores para crear diseños únicos.",
-  "generadoEn": "2025-08-15T08:27:31.059Z"
+  "nombre_tema": "CSS Grid Layout: Grid Template Areas",
+  "explicacion_tema": "El atributo grid-template-areas permite definir un layout de grid mediante áreas etiquetadas. Permite crear layouts complejos y personalizados con facilidad, definiendo áreas específicas para cada elemento del grid. Se utiliza combinado con el atributo grid-template-columns y grid-template-rows para crear un layout completo.",
+  "generadoEn": "2025-08-16T08:25:05.410Z"
 }
