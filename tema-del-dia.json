@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-16",
-  "tecnologia": "css",
-  "nombre_tema": "CSS Grid Layout: Grid Template Areas",
-  "explicacion_tema": "El atributo grid-template-areas permite definir un layout de grid mediante áreas etiquetadas. Permite crear layouts complejos y personalizados con facilidad, definiendo áreas específicas para cada elemento del grid. Se utiliza combinado con el atributo grid-template-columns y grid-template-rows para crear un layout completo.",
-  "generadoEn": "2025-08-16T08:25:05.410Z"
+  "fecha": "2025-08-17",
+  "tecnologia": "react",
+  "nombre_tema": "Uso de React Context API",
+  "explicacion_tema": "La Context API de React es una forma de gestionar el estado global en una aplicación. Permite compartir datos entre componentes no relacionados sin necesidad de pasarlos por props. Se utiliza para manejar el estado de la aplicación y facilitar la comunicación entre componentes. Se configura mediante un contexto que se crea en el src y se consume en los componentes que lo necesitan.",
+  "generadoEn": "2025-08-17T08:25:50.356Z"
 }
