@@ -1,7 +1,6 @@
 {
-  "fecha": "2025-08-18",
-  "tecnologia": "react",
-  "nombre_tema": "Usando el Hook useReducer en React",
-  "explicacion_tema": "El hook useReducer es una forma de manejar el estado en React de manera más eficiente y escalable. Permite declarar un reducer y utilizarlo para manejar el estado de una aplicación, lo que es especialmente útil cuando se requiere manejar complejos lógicas de negocio. Aunque es similar al useState hook, useReducer es más poderoso y flexible ya que permite manejar múltiples accionas y estados en el mismo reducer.",
-  "generadoEn": "2025-08-18T08:30:06.277Z"
+  "fecha": "2025-08-19",
+  "tecnologia": "css",
+  "nombre_tema": "CSS Grid Layout",
+  "generadoEn": "2025-08-19T08:26:50.344Z"
 }
