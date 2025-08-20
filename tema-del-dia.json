@@ -1,6 +1,7 @@
 {
-  "fecha": "2025-08-19",
-  "tecnologia": "css",
-  "nombre_tema": "CSS Grid Layout",
-  "generadoEn": "2025-08-19T08:26:50.344Z"
+  "fecha": "2025-08-20",
+  "tecnologia": "react",
+  "nombre_tema": "useState con objeto",
+  "explicacion_tema": "useState es un hook que permite manejar estados en React. Cuando se pasa un objeto en lugar de un valor primitivo, useState devuelve un array con dos elementos: el valor actual y una función para actualizarlo. Esto permite manejar estados complejos con objetos y arrays.",
+  "generadoEn": "2025-08-20T08:26:43.785Z"
 }
