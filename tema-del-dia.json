@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-21",
-  "tecnologia": "javascript",
-  "nombre_tema": "Uso de la función `Array.prototype.flat()`",
-  "explicacion_tema": "La función `Array.prototype.flat()` permite flattenear arrays multidimensionales en JavaScript, devolviendo un nuevo array con todos los elementos descompuestos. Puede ser utilizado para simplificar el trabajo con datos estructurados en arrays, y se puede utilizar con opciones para controlar el nivel de flatten que se desea aplicar.",
-  "generadoEn": "2025-08-21T08:26:29.720Z"
+  "fecha": "2025-08-22",
+  "tecnologia": "react",
+  "nombre_tema": "Custom Hooks en React",
+  "explicacion_tema": "Los custom hooks en React permiten crear funciones que pueden ser utilizadas como hooks, permitiendo a los desarrolladores reutilizar lógica de negocio y hacer que el código sea más legible y maintainable. Los custom hooks pueden ser utilizados para manejar estado, realizar peticiones HTTP y realizar otras tareas complejas.",
+  "generadoEn": "2025-08-22T08:26:22.890Z"
 }
