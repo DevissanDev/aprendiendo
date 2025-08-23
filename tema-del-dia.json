@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-22",
-  "tecnologia": "react",
-  "nombre_tema": "Custom Hooks en React",
-  "explicacion_tema": "Los custom hooks en React permiten crear funciones que pueden ser utilizadas como hooks, permitiendo a los desarrolladores reutilizar lógica de negocio y hacer que el código sea más legible y maintainable. Los custom hooks pueden ser utilizados para manejar estado, realizar peticiones HTTP y realizar otras tareas complejas.",
-  "generadoEn": "2025-08-22T08:26:22.890Z"
+  "fecha": "2025-08-23",
+  "tecnologia": "javascript",
+  "nombre_tema": "CustomEvent en JavaScript",
+  "explicacion_tema": "El customEvent es una forma de crear eventos personalizados en JavaScript, permitiendo la comunicación entre diferentes partes de un desarrollo web. Se utiliza para emitir eventos que no están incluidos en el objeto DOMEvent. Se crea un objeto Event y se configura con la información deseada, luego se.dispatchEvent() al elemento objetivo.",
+  "generadoEn": "2025-08-23T08:22:45.978Z"
 }
