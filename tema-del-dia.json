@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-23",
-  "tecnologia": "javascript",
-  "nombre_tema": "CustomEvent en JavaScript",
-  "explicacion_tema": "El customEvent es una forma de crear eventos personalizados en JavaScript, permitiendo la comunicación entre diferentes partes de un desarrollo web. Se utiliza para emitir eventos que no están incluidos en el objeto DOMEvent. Se crea un objeto Event y se configura con la información deseada, luego se.dispatchEvent() al elemento objetivo.",
-  "generadoEn": "2025-08-23T08:22:45.978Z"
+  "fecha": "2025-08-24",
+  "tecnologia": "express",
+  "nombre_tema": "Express.js: Middleware Customizado",
+  "explicacion_tema": "Un middleware es una función que se ejecuta entre la petición y la respuesta en una aplicación Express.js. Un middleware personalizado se puede crear para realizar tareas específicas, como autenticar usuarios, hacer log de solicitudes, o aplicar cors. Se puede definir a través de la función 'use' y se puede utilizar para modificar el flujo de la solicitud y respuesta.",
+  "generadoEn": "2025-08-24T08:22:46.783Z"
 }
