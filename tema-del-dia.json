@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-24",
-  "tecnologia": "express",
-  "nombre_tema": "Express.js: Middleware Customizado",
-  "explicacion_tema": "Un middleware es una función que se ejecuta entre la petición y la respuesta en una aplicación Express.js. Un middleware personalizado se puede crear para realizar tareas específicas, como autenticar usuarios, hacer log de solicitudes, o aplicar cors. Se puede definir a través de la función 'use' y se puede utilizar para modificar el flujo de la solicitud y respuesta.",
-  "generadoEn": "2025-08-24T08:22:46.783Z"
+  "fecha": "2025-08-25",
+  "tecnologia": "html",
+  "nombre_tema": "Fragmentos en HTML",
+  "explicacion_tema": "Los fragmentos en HTML son un elemento desconocido que se puede utilizar para agrupar contenido y suavizar el flujo de contenido en una página web. Permite que el contenido se corte y se muestre de manera elegante al redimensionar la ventana. Se crea utilizando la etiqueta `<fragment>` y no tiene contenido directo, en su lugar, se coloca dentro de él el contenido que se desea agrupar.",
+  "generadoEn": "2025-08-25T08:28:36.084Z"
 }
