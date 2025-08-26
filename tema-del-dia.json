@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-25",
-  "tecnologia": "html",
-  "nombre_tema": "Fragmentos en HTML",
-  "explicacion_tema": "Los fragmentos en HTML son un elemento desconocido que se puede utilizar para agrupar contenido y suavizar el flujo de contenido en una página web. Permite que el contenido se corte y se muestre de manera elegante al redimensionar la ventana. Se crea utilizando la etiqueta `<fragment>` y no tiene contenido directo, en su lugar, se coloca dentro de él el contenido que se desea agrupar.",
-  "generadoEn": "2025-08-25T08:28:36.084Z"
+  "fecha": "2025-08-26",
+  "tecnologia": "express",
+  "nombre_tema": "Middleware en Express",
+  "explicacion_tema": "El middleware en Express permite a los desarrolladores agregar funcionalidades extras a las solicitudes y respuestas de la aplicación. Se pueden utilizar para realizar tareas como autenticación, autorización, manejo de errores, y più. Los middlewares se pueden agregar de manera secuencial y se ejecutan antes de que la solicitud alcance el controlador o archivo que fue solicitado.",
+  "generadoEn": "2025-08-26T08:27:57.900Z"
 }
