@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-27",
-  "tecnologia": "javascript",
-  "nombre_tema": "Uso de Optional Chaining en JavaScript",
-  "explicacion_tema": "El Optional Chaining es una característica nueva en JavaScript que nos permite acceder a propiedades de objetos anidados sin que se produzcan errores en caso de que alguna de las propiedades no exista. Se escribe utilizando el operador ?., por ejemplo, obj?.prop?.prop2. Esto es útil para evitar errores de tipo 'undefined' al acceder a propiedades de objetos que pueden no existir.",
-  "generadoEn": "2025-08-27T08:25:44.972Z"
+  "fecha": "2025-08-28",
+  "tecnologia": "express",
+  "nombre_tema": "Express.js middleware: Validate request bodies with Joi",
+  "explicacion_tema": "Joi es un framework de validación de esquemas para Node.js que se puede utilizar como middleware en aplicaciones Express.js. Permite validar los cuerpos de las solicitudes HTTP y devolver errores personalizados en caso de que no cumplan con los esquemas definidos.",
+  "generadoEn": "2025-08-28T08:25:30.432Z"
 }
