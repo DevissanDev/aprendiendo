@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-28",
-  "tecnologia": "express",
-  "nombre_tema": "Express.js middleware: Validate request bodies with Joi",
-  "explicacion_tema": "Joi es un framework de validación de esquemas para Node.js que se puede utilizar como middleware en aplicaciones Express.js. Permite validar los cuerpos de las solicitudes HTTP y devolver errores personalizados en caso de que no cumplan con los esquemas definidos.",
-  "generadoEn": "2025-08-28T08:25:30.432Z"
+  "fecha": "2025-08-29",
+  "tecnologia": "react",
+  "nombre_tema": "Cómo utilizar el hook useEffect",
+  "explicacion_tema": "El hook useEffect es un método para agregar lógica de efecto secundario a componentes de React. Permite ejecutar código después de que el componente se monta y antes de que se desmonte. Es útil para realizar operaciones como fetch data, manejar eventos de mouse o keyboard, o actualizar el estado del componente. Puedes especificar dependencias que van a causar que useEffect se ejecute de nuevo cuando cambien.",
+  "generadoEn": "2025-08-29T08:25:26.442Z"
 }
