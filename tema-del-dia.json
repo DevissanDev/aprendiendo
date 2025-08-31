@@ -1,7 +1,7 @@
 {
-  "fecha": "2025-08-30",
-  "tecnologia": "css",
-  "nombre_tema": "CSS Grid Layout",
-  "explicacion_tema": "El layout grid es una propiedad de CSS que permite crear grids flexibles y personalizados para estructurar el contenido de una página. Permite definir filas y columnas para organizar el contenido y utilizar CSS Grid Layout can be used to create complex layouts, such as those with multiple rows and columns, and can be combined with other CSS properties to create a wide range of designs.",
-  "generadoEn": "2025-08-30T08:22:11.917Z"
+  "fecha": "2025-08-31",
+  "tecnologia": "react",
+  "nombre_tema": "Hook useMemo en React",
+  "explicacion_tema": "El hook useMemo en React es una herramienta para memorizar el resultado de una función que se llama varias veces en el ciclo de vida de un componente. Esto ayuda a evitar recalcular valores innecesarios y mejora el rendimiento. Se utiliza escribiendo useMemo(función, dependencias), donde la función se ejecuta solo cuando las dependencias cambian. Esto es especialmente útil cuando se necesitan efectos secundarios o cuando se trabajan con grandes datasets.",
+  "generadoEn": "2025-08-31T08:21:56.409Z"
 }
